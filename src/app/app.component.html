@@ -1,0 +1,11 @@
+<div class="banner">
+  <img src="assets/img/app.png"/>
+  <div class="title">
+    <h1>Grocery</h1>
+    <h1>Shopping</h1>
+  </div>
+  <img src="assets/img/app.png"/>
+</div>
+<div class="lists">
+  <app-grocery-list *ngFor="let department of departments" [department]="department" appDepartmentColor></app-grocery-list>
+</div>

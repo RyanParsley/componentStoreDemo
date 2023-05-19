@@ -1,0 +1,21 @@
+:host {
+    border: 1px solid transparent;
+    border-radius: 2px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    display: block;
+
+    padding-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.display {
+    
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-auto-flow: column;
+}
+
+.complete {
+    color: lightgrey;
+}

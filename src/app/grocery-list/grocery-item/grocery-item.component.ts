@@ -6,7 +6,7 @@ import { Grocery } from 'src/app/interfaces/grocery.interface';
   template: `
     <div
       (click)="useItem()"
-      [ngClass]="{ complete: item.amount == 0 }"
+      [ngClass]="{ complete: item.amount === 0 }"
       class="display"
     >
       <span>{{ item.name }}</span>

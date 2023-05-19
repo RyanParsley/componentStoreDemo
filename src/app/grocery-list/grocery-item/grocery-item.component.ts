@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Grocery } from 'src/app/interfaces/grocery.interface';
 
 @Component({
@@ -17,6 +17,7 @@ import { Grocery } from 'src/app/interfaces/grocery.interface';
 })
 export class GroceryItemComponent {
   @Input() item!: Grocery;
+
   public useItem() {
     this.item.amount--;
   }
